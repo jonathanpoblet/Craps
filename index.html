@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Craps</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="container-titulo">CRAPS</h1>
+        <p class="container-texto">Gana si los dados obtienen 7 u 11</p>
+        <div class="container-dados" id="dados">
+            <div class="dados">
+                <label class="label">Dado 1:</label>
+                <input class="dado" id="dado1" readonly></input>
+                <label class="label">Dado 2:</label>
+                <input class="dado" id="dado2" readonly></input>
+            </div>
+            <button class="tirarDados" id="botonDados">Tirar Dados</button>
+            <h2 id="resultado"></h2>
+        </div>
+    </div>
+    <script src="operadores.js"></script>
+</body>
+</html>

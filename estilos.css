@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(80, 173, 169);
+    font-family: monospace;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-titulo{
+    font-size: 70px;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    padding-bottom: 20px;
+}
+
+.container-texto{
+    font-size: 30px;
+    padding-bottom: 50px;
+    margin: 0px 30px;
+}
+
+#dado1 , #dado2 {
+    width: 40px;
+    height: 40px;
+}
+
+.container-dados{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.label{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.dado{
+    margin-right: 40px;
+    font-size: 20px;
+    padding-left: 12px;
+    padding-top: 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px rgb(59, 59, 59);
+}
+
+.tirarDados{
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 4%;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 0px 0px rgb(8, 8, 8);
+}
+
+.tirarDados:hover{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px 0px rgb(88, 88, 88);
+}
